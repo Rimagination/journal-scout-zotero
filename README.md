@@ -1,6 +1,10 @@
+<img src="./assets/journal-scout-logo.webp" alt="Journal Scout logo" width="112" height="112">
+
 # Journal Scout for Zotero
 
 在 Zotero 文献列表与右侧面板中查看、归档和筛选期刊指标及 CCF 会议等级。
+
+![Journal Scout 在 Zotero 文献列表显示期刊指标，右侧面板可选择显示指标与显示位置](./assets/zotero-overview.webp)
 
 [下载安装与图文说明](https://journal.scansci.com/extension-install.html#zotero-install) · [发行版本](https://github.com/Rimagination/journal-scout-zotero/releases) · [问题反馈](https://github.com/Rimagination/journal-scout-zotero/issues)
 
