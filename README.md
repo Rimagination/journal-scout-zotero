@@ -2,7 +2,7 @@
   <img src="./assets/journal-scout-logo.webp" alt="Journal Scout logo" width="96" height="96">
   <h1>Journal Scout for Zotero</h1>
   <p>
-    <a href="https://github.com/Rimagination/journal-scout-zotero/releases/latest"><img src="https://img.shields.io/badge/version-0.1.1-167D86?style=flat-square" alt="当前版本 v0.1.1"></a>
+    <a href="https://github.com/Rimagination/journal-scout-zotero/releases/latest"><img src="https://img.shields.io/badge/version-0.1.2-167D86?style=flat-square" alt="当前版本 v0.1.2"></a>
     <a href="https://zotero-chinese.com/plugins/#search=Journal+scout"><img src="https://zotero-chinese.com/badges/listed.svg" alt="Zotero 中文社区 · 已收录" height="20"></a>
     <a href="#开始使用"><img src="https://img.shields.io/badge/Zotero-7%E2%80%9310-CC2936?style=flat-square" alt="安装清单支持 Zotero 7–10，实测范围见安装说明"></a>
     <a href="https://journal.scansci.com/"><img src="https://img.shields.io/badge/ScanSci-Journal%20Scout-173A46?style=flat-square" alt="ScanSci Journal Scout 官网"></a>
@@ -37,11 +37,12 @@ Journal Scout for Zotero 是 ScanSci 发布的 Zotero 插件，适合希望在�
 | 保存已经查到的指标 | 自动写入条目 Extra（附加信息），复用本地归档与期刊缓存 |
 | 只展示自己关心的信息 | 逐项选择显示指标，切换「列表列与侧边栏」或「仅侧边栏」，调整配色、字号、圆角和间距 |
 | 补全已有文库 | 在设置中按需补全文库期刊指标，查看进度或取消，保留已完成的归档 |
+| 显示学校自定义等级 | 在「显示设置」或「设置 → Journal Scout → 高校与自定义目录」导入标准 Excel，核验后加入标签列表并在本机匹配 |
 | 获取后续更新 | 插件版本通过 Zotero 原生更新机制分发，指标数据通过网站的数据版本信号更新 |
 
 ## 开始使用
 
-当前版本为 **v0.1.1**。安装清单声明支持 **Zotero 7–10**；已在 **10.0.8** 实测，7–9 尚未逐版测试。Zotero 6 不支持。
+当前版本为 **v0.1.2**。安装清单声明支持 **Zotero 7–10**；已在 **10.0.8** 实测，7–9 尚未逐版测试。Zotero 6 不支持。
 
 1. 从[发行页](https://github.com/Rimagination/journal-scout-zotero/releases/latest)或[官网安装页](https://journal.scansci.com/extension-install.html#zotero-install)下载 `.xpi` 安装包。
 
@@ -55,7 +56,7 @@ Journal Scout for Zotero 是 ScanSci 发布的 Zotero 插件，适合希望在�
 
 4. 安装后选中一篇文献，在 Journal Scout 列或右侧面板查看指标。Windows 下可在「编辑 → 设置 → Journal Scout」中调整显示选项。
 
-2026-11-13 同版本修订增加 IF5；已安装 v0.1.1 的用户需重新下载 XPI 并覆盖安装。官方「<0.1」保持为范围值，不按精确 0.1 比较。
+v0.1.2 补齐标准 Excel 高校目录导入与离线匹配，导入后在标签列表统一开关；支持学科分区显示，并修复侧栏重复渲染闪烁。v0.1.1 用户可通过插件管理器「检查更新」升级。IF5 官方「<0.1」保持为范围值，不按精确 0.1 比较。
 
 后续更新遵循 Zotero 插件管理器中的自动更新设置。需要立即检查插件新版本时，点击齿轮菜单「检查更新 / Check for Updates」。
 
