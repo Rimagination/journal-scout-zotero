@@ -3,6 +3,7 @@
   <h1>Journal Scout for Zotero</h1>
   <p>
     <a href="https://github.com/Rimagination/journal-scout-zotero/releases/latest"><img src="https://img.shields.io/badge/version-0.1.1-167D86?style=flat-square" alt="当前版本 v0.1.1"></a>
+    <a href="https://zotero-chinese.com/plugins/#search=Journal+scout"><img src="https://zotero-chinese.com/badges/listed.svg" alt="Zotero 中文社区 · 已收录" height="20"></a>
     <a href="#开始使用"><img src="https://img.shields.io/badge/Zotero-7%E2%80%9310-CC2936?style=flat-square" alt="安装清单支持 Zotero 7–10，实测范围见安装说明"></a>
     <a href="https://journal.scansci.com/"><img src="https://img.shields.io/badge/ScanSci-Journal%20Scout-173A46?style=flat-square" alt="ScanSci Journal Scout 官网"></a>
   </p>
