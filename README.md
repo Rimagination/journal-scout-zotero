@@ -2,7 +2,7 @@
   <img src="./assets/journal-scout-logo.webp" alt="Journal Scout logo" width="96" height="96">
   <h1>Journal Scout for Zotero</h1>
   <p>
-    <a href="https://github.com/Rimagination/journal-scout-zotero/releases/latest"><img src="https://img.shields.io/badge/version-0.1.2-167D86?style=flat-square" alt="当前版本 v0.1.2"></a>
+    <a href="https://github.com/Rimagination/journal-scout-zotero/releases/latest"><img src="https://img.shields.io/badge/version-0.1.3-167D86?style=flat-square" alt="当前版本 v0.1.3"></a>
     <a href="https://zotero-chinese.com/plugins/#search=Journal+scout"><img src="https://zotero-chinese.com/badges/listed.svg" alt="Zotero 中文社区 · 已收录" height="20"></a>
     <a href="#开始使用"><img src="https://img.shields.io/badge/Zotero-7%E2%80%9310-CC2936?style=flat-square" alt="安装清单支持 Zotero 7–10，实测范围见安装说明"></a>
     <a href="https://journal.scansci.com/"><img src="https://img.shields.io/badge/ScanSci-Journal%20Scout-173A46?style=flat-square" alt="ScanSci Journal Scout 官网"></a>
@@ -42,7 +42,7 @@ Journal Scout for Zotero 是 ScanSci 发布的 Zotero 插件，适合希望在�
 
 ## 开始使用
 
-当前版本为 **v0.1.2**。安装清单声明支持 **Zotero 7–10**；已在 **10.0.8** 实测，7–9 尚未逐版测试。Zotero 6 不支持。
+当前版本为 **v0.1.3**。安装清单声明支持 **Zotero 7–10**；已在 **10.0.8** 实测，7–9 尚未逐版测试。Zotero 6 不支持。
 
 1. 从[发行页](https://github.com/Rimagination/journal-scout-zotero/releases/latest)或[官网安装页](https://journal.scansci.com/extension-install.html#zotero-install)下载 `.xpi` 安装包。
 
@@ -56,7 +56,7 @@ Journal Scout for Zotero 是 ScanSci 发布的 Zotero 插件，适合希望在�
 
 4. 安装后选中一篇文献，在 Journal Scout 列或右侧面板查看指标。Windows 下可在「编辑 → 设置 → Journal Scout」中调整显示选项。
 
-v0.1.2 补齐标准 Excel 高校目录导入与离线匹配，导入后在标签列表统一开关；支持学科分区显示，并修复侧栏重复渲染闪烁。v0.1.1 用户可通过插件管理器「检查更新」升级。IF5 官方「<0.1」保持为范围值，不按精确 0.1 比较。
+v0.1.3 修复重复期刊、刊名写法与旧缓存导致的漏显示，按已核验的刊号与别名匹配；同名异刊按 ISSN、必要时按文献 DOI 区分。后台查询保留正在操作的显示设置，同刊请求共享缓存。保留标准 Excel 自定义目录、学科分区显示与数值筛选。v0.1.0–v0.1.2 用户可通过插件管理器「检查更新」升级。IF5 官方「<0.1」保持为范围值，不按精确 0.1 比较。
 
 后续更新遵循 Zotero 插件管理器中的自动更新设置。需要立即检查插件新版本时，点击齿轮菜单「检查更新 / Check for Updates」。
 
@@ -84,7 +84,7 @@ Zotero 原生「标签」条件也保留兼容用途，例如「标签 → 包�
 
 ## 使用边界
 
-- **查询内容**：期刊查询使用条目已有的刊名或 ISSN，会议等级按会议名称匹配 CCF 目录；不上传论文全文或附件。
+- **查询内容**：期刊查询使用条目已有的刊名或 ISSN，会议等级按会议名称匹配 CCF 目录；遇到同名异刊且缺少 ISSN 时，使用文献 DOI 向 Crossref 核对刊号。不上传论文全文或附件。
 - **数据完整性**：未收录或无法确认的指标保留为空。指标可能缺失或存在更新延迟，使用时请核对对应年度及原始来源。
 - **条目修改**：自动归档会修改 Extra 和插件管理的原生标签，可能随 Zotero 同步及出现在部分导出文件中；只读或正在编辑的条目会跳过。
 - **兼容范围**：安装清单的支持范围与逐版实测范围见「开始使用」。本仓库用于发布安装包与使用说明。
